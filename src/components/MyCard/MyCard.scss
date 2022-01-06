@@ -32,7 +32,7 @@
     border-radius: 8px;
     margin: 0 auto;
     padding: 13px 12px 0 11px;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Light', sans-serif;
 
     &--current {
       font-weight: normal;
@@ -61,6 +61,7 @@
       align-items: center;
       color: $whiteColor;
       padding-bottom: 18px;
+      font-family: 'Gilroy-Bold', sans-serif;
     }
 
     &--graphs {
