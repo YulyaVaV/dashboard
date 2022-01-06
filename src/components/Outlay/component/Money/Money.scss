@@ -1,0 +1,9 @@
+@import '../../../../utils/vars.scss';
+
+.money {
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  color: $textColor;
+  padding-top: 23px;
+}

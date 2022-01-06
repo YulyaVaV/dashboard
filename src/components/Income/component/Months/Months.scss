@@ -1,0 +1,28 @@
+@import '../../../../utils/vars.scss';
+
+.months {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+
+  &__month {
+    font-weight: normal;
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    color: $textColor;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 16px;
+  }
+
+  &__column {
+    width: 9px;
+    height: 92px;
+    background-color: $borderColor;
+    margin-bottom: 12px;
+    border-radius: 100px;
+  }
+}

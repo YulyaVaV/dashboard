@@ -1,0 +1,25 @@
+@import '../../utils/vars.scss';
+
+.transactions {
+  max-width: 255px;
+  width: 100%;
+  background: $bgMain;
+  border-radius: 10px;
+  padding: 15px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+
+    &--more {
+      width: 18px;
+      height: 18px;
+      fill: transparent;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

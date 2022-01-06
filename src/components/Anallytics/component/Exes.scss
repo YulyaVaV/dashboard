@@ -1,0 +1,32 @@
+@import '../../../utils/vars.scss';
+
+.exes {
+  position: relative;
+
+  &__wrapp {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13px;
+  }
+
+  &__title {
+    font-weight: normal;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    color: $textColor;
+  }
+
+  &__column {
+    width: 100px;
+    height: 10px;
+    background: $borderColor;
+    border-radius: 100px;
+  }
+
+  &__percent {
+    position: absolute;
+    left: 110px;
+    bottom: 8px;
+  }
+}
