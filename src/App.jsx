@@ -21,7 +21,6 @@ const App = () => {
           <div className="App__anallytics">
              <Anallytics />
           </div>  
-         
         </div>
         <div className="App__bottom">
           <Income />
