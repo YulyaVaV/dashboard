@@ -1,5 +1,5 @@
 @import './utils/vars.scss';
-@import url('http://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880');
+// @import url('http://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880');
 
 * {
   margin: 0;
@@ -22,7 +22,6 @@ body {
   border-radius: 20px;
   margin: 0 auto;
   height: auto;
-  font-family: 'Gilroy-Light', sans-serif;
 
   &__main {
     display: flex;

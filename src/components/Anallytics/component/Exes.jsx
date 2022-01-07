@@ -1,7 +1,7 @@
 import React from 'react';
 import './Exes.scss';
 
-const Exes = ({title, img}) => {
+export const Exes = ({title, img}) => {
   return (
     <div className="exes">
       <div className="exes__percent">
@@ -15,5 +15,3 @@ const Exes = ({title, img}) => {
     </div>
   )
 }
-
-export default Exes

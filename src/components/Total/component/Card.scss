@@ -19,7 +19,6 @@
       display: flex;
       align-items: center;
       color: $textColor;
-      font-family: 'Gilroy-Light', sans-serif;
     }
 
     &--more {
@@ -39,7 +38,6 @@
     display: flex;
     align-items: center;
     color: $textColor;
-    font-family: 'Gilroy-Bold', sans-serif;
   }
 
   &__line {
@@ -62,7 +60,6 @@
     display: flex;
     align-items: center;
     gap: 3px;
-    font-family: 'Gilroy-Bold', sans-serif;
 
     &--numbs {
       font-weight: bold;

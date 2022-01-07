@@ -1,11 +1,10 @@
 import React from 'react';
 import './Anallytics.scss';
-import Exes from './component/Exes';
+import {Exes} from './component/Exes.jsx';
 
 import arrow from './images/arrow.svg';
 
 import stairs from './images/stairs.png';
-// import footing from './images/footing.png'
 import elect from './images/elect.png';
 import framin from './images/framin.png';
 import finish from './images/finish.png';
