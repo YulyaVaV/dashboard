@@ -1,0 +1,25 @@
+@import '../../App/utils/vars.scss';
+
+.data-select {
+  background: $borderColor;
+  border-radius: 20px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+
+  &__value {
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__arrow {
+    fill: transparent;
+    width: 12px;
+    height: 12px;
+  }
+}

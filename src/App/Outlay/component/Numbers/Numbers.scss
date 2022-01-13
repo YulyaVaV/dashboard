@@ -1,0 +1,9 @@
+@import '../../../utils/vars.scss';
+
+.numbers {
+  font-weight: normal;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  color: $textColor;
+}

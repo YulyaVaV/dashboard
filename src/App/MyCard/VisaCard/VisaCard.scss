@@ -1,0 +1,87 @@
+@import '../../utils/vars.scss';
+
+.visa-card {
+  position: relative;
+  max-width: 165px;
+  width: 100%;
+  background: $pinkGradient;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 13px 12px 0 11px;
+  font-family: 'Gilroy-Light', sans-serif;
+
+  &__current {
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    display: flex;
+    align-items: center;
+    color: $whiteColor;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__chip {
+    width: 14px;
+    height: 12px;
+    margin-top: 4px;
+  }
+
+  &__price {
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: $whiteColor;
+    padding-bottom: 18px;
+    font-family: 'Gilroy-Bold', sans-serif;
+  }
+
+  &__graphs {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+
+  &__violet {
+    position: absolute;
+  }
+
+  &__logo {
+    width: 24px;
+    height: 7px;
+    z-index: 5;
+    margin-top: 14px;
+  }
+
+  &__wrapp {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__numbers {
+    padding-bottom: 12px;
+  }
+
+  &__number {
+    position: relative;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    color: $whiteColor;
+    padding-bottom: 6px;
+    font-weight: normal;
+    z-index: 50;
+  }
+
+  &__term {
+    font-weight: normal;
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+    color: $whiteColor;
+  }
+}

@@ -1,12 +1,12 @@
 import './App.scss';
-import Anallytics from './components/Anallytics/Anallytics';
-import Header from './components/Header/Header';
-import Income from './components/Income/Income';
-import Left from './components/LeftContent/Left';
-import MyCard from './components/MyCard/MyCard';
-import Outlay from './components/Outlay/Outlay';
-import Total from './components/Total/Total';
-import Transactions from './components/Transactions/Transactions';
+import Anallytics from './App/Anallytics/Anallytics';
+import Header from './App/Header/Header';
+import Income from './App/Income/Income';
+import Left from './App/NavList/NavList';
+import MyCard from './App/MyCard/MyCard';
+import Outlay from './App/Outlay/Outlay';
+import Total from './App/Total/Total';
+import Transactions from './App/Transactions/Transactions';
 
 const App = () => {
   return (

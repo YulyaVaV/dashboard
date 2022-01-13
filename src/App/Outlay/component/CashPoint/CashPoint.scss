@@ -1,0 +1,73 @@
+@import '../../../utils/vars.scss';
+
+.cash-point {
+  &__point {
+    position: absolute;
+    border-top: 1px dashed $violetColor;
+    border-bottom: none;
+    transform: rotate(-90deg);
+    width: 93px;
+    right: 175px;
+    bottom: 80px;
+    z-index: 40;
+  }
+
+  &__bullet {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: $blackColor;
+    border-radius: 50%;
+    top: -3px;
+    left: 90px;
+    z-index: 40;
+  }
+
+  &__gradient {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    top: -4px;
+    left: 89px;
+    background: $bgGradient;
+  }
+
+  &__price {
+    position: absolute;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 9px;
+    display: flex;
+    align-items: center;
+    color: $textColor;
+    right: 200px;
+    bottom: 134px;
+    z-index: 40;
+    padding: 4px 11px;
+    background: $borderColor;
+    border-radius: 3px;
+  }
+
+  &__piece {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    display: flex;
+    align-items: center;
+    background: $borderColor;
+    right: 218px;
+    bottom: 132px;
+    border-radius: 0.5px;
+    transform: rotate(135deg);
+    z-index: 40;
+    border-radius: 1px;
+  }
+
+  &__round {
+    position: absolute;
+    bottom: 90px;
+    left: 115px;
+    z-index: 45;
+  }
+}

@@ -1,0 +1,43 @@
+@import '../../../utils/vars.scss';
+
+.outlay-graph {
+
+  &__dashed-line1 {
+    position: absolute;
+    border-top: 1px dashed $borderColor;
+    bottom: 144px;
+    width: 542px;
+  }
+
+  &__dashed-line2 {
+    position: absolute;
+    border-top: 1px dashed $borderColor;
+    bottom: 76px;
+    width: 542px;
+  }
+
+  &__dashed-line3 {
+    position: absolute;
+    border-top: 1px dashed $borderColor;
+    bottom: 110px;
+    width: 542px;
+  }
+
+  &__violetvector {
+    margin-top: 20px;
+    border-bottom: 1px solid $vectorBorder;
+    border-top: 1px dashed $borderColor;
+    width: 542px;
+    z-index: 20;
+    position: absolute;
+  }
+
+  &__redvector {
+    position: relative;
+    bottom: 41px;
+
+    z-index: 30;
+    width: 542px;
+    top: 20px;
+  }
+}

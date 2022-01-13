@@ -1,4 +1,4 @@
-@import './utils/vars.scss';
+@import '../src/App/utils/vars.scss';
 // @import url('http://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880');
 
 * {
@@ -46,7 +46,7 @@ body {
 }
 
 
-.mainTitle {
+.main-title {
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
