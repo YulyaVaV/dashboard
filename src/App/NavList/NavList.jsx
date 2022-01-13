@@ -1,8 +1,8 @@
 import React from 'react';
 import './NavList.scss';
-import Menu from '../../ui/Menu/Menu';
+import Menu from '../../ui/MenuItem/MenuItem';
 
-import { list } from './component/list';
+import { list } from './list';
 
 const NavList = () => {
   return (
